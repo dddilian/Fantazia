@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1220px;
+    padding: 0px 10px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #000000;
+    height: 90px;
+    display: flex;
+
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+#logoDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+#logo {
+    height: 80px;
+    padding-left: 20px;
+}
+
+#cartPic {
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+#menuLink {
+    color: white;
+    font-size: 20px;
+}
+
+#searchDiv {
+    padding: 10px;
+}
+
+#productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.card {
+
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.cardImg {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    width: 200px;
+}
+
+.cardLastDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+}
+
+.cardP {
+    padding: 10px;
+}
+
+.cardLastDiv input {
+    width: 40px;
+    height: 40px;
+
+}
+
+#cardIconDIv {
+    position: relative;
+}
+
+#orderedProductsCount {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+    width: 30px;
+    text-align: center;
+    display: none;
+}
+
+#orderHistoryTable,
+#cartTable,
+td,
+th,
+tr {
+    border: 1px solid black;
+}
+
+#cartTable {
+    width: 500px;
+}
+
+#orderTd {
+    text-align: center;
+}
+
+#orderLink {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#orderLink:hover {
+    color: red;
+}
+
+#totalTd {
+    font-weight: 600;
+}
+
+
+#cartPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+
+    gap: 30px;
+}
+
+#noItemsInCartDiv {
+    display: none;
+}
+
+#orderPage {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#orderForm {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#orderHistoryTable {
+    width: 700px;
+}
+
+#orderHistoryDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card input {
+    text-align: center;
+}
+
+#thanksDiv {
+    display: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}

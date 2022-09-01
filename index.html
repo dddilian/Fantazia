@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Document</title>
+
+
+
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <div id="logoDiv">
+                <a href="#menu">
+                    <img id="logo" src="./assets/images/logo.jpeg" alt="">
+                </a>
+
+                <a id="menuLink" href="#menu">menu</a>
+            </div>
+
+
+
+
+            <div id="cartIconDIv">
+                <span id="orderedProductsCount"></span>
+                <a href="#cart"><img id="cartPic" src="./assets/images/cart.jpeg" alt=""></a>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div id="allProductsPage">
+
+                <div id="searchDiv">
+
+                    <label for="searchEl">Search by name</label>
+                    <input type="text" name="" id="searchEl">
+
+                </div>
+
+                <div id="productsContainer">
+
+                </div>
+
+
+            </div>
+
+            <div id="cartPage">
+
+                <div id="noItemsInCartDiv">No items in cart</div>
+
+                <table id="cartTable">
+
+
+                </table>
+
+
+                <div id="orderHistoryDiv">
+                    <h2>Order history:</h2>
+                    <table id="orderHistoryTable">
+
+
+                    </table>
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div id="orderPage">
+
+                <form action="#" id="orderForm">
+
+                    <label for="nameInput">Name:</label>
+                    <input type="text" name="name" id="nameInput" required>
+
+                    <label for="phoneInput">Phone:</label>
+                    <input type="text" name="phone" id="phoneInput" minlength="10" maxlength="10" required>
+
+                    <label for="phoneInput">Address</label>
+
+                    <textarea name="address" id="addressInput" cols="30" rows="10" required></textarea>
+
+                    <button type="submit" id="submitBtnOrder" disabled>Finalize order</button>
+
+                </form>
+
+                <div id="thanksDiv">Благодарим, че избрахте дюнери Фантазия</div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+
+
+    <script src="./assets/js/products.js"></script>
+
+    <script src="./assets/js/models/User.js"></script>
+    <script src="./assets/js/models/Product.js"></script>
+    <script src="./assets/js/models/ProductManager.js"></script>
+
+    <script src="./assets/js/index.js"></script>
+
+</body>
+
+
+
+</html>
